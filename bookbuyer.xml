@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MockAgent>
+	<protocol>
+		<send>
+			<performative>ACLMessage.PROPOSE</performative>
+			<to>bargainer</to>
+			<content></content>
+		</send>
+		<receive>
+			<performative>ACLMessage.ACCPET_PROPOSAL</performative>
+			<time>6000</time>
+		</receive>
+		<receive>
+			<performative>ACLMessage.INFORM</performative>
+			<time>6000</time>
+		</receive>
+		<receive>
+			<performative>ACLMessage.FAILURE</performative>
+			<time>6000</time>
+		</receive>
+	</protocol>
+</MockAgent>
