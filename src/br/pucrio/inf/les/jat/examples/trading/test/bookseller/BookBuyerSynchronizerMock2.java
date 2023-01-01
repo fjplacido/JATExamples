@@ -1,9 +1,9 @@
 package br.pucrio.inf.les.jat.examples.trading.test.bookseller;
 
+import br.pucrio.inf.les.jat.core.JadeSynchronizedMockAgent;
 import jade.core.AID;
 import jade.core.behaviours.OneShotBehaviour;
 import jade.lang.acl.ACLMessage;
-import br.pucrio.inf.les.jat.core.JadeSynchronizedMockAgent;
 
 public class BookBuyerSynchronizerMock2 extends JadeSynchronizedMockAgent {
 	

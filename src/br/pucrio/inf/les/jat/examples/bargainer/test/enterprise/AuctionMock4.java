@@ -1,14 +1,13 @@
 package br.pucrio.inf.les.jat.examples.bargainer.test.enterprise;
 
-import jade.core.AID;
-import jade.core.behaviours.OneShotBehaviour;
-import jade.lang.acl.ACLMessage;
-
 import java.util.StringTokenizer;
 
 import br.pucrio.inf.les.jat.core.JadeMockAgent;
 import br.pucrio.inf.les.jat.core.exception.ComparisonContentFailure;
 import br.pucrio.inf.les.jat.core.exception.ReplyReceptionFailed;
+import jade.core.AID;
+import jade.core.behaviours.OneShotBehaviour;
+import jade.lang.acl.ACLMessage;
 
 public class AuctionMock4 extends JadeMockAgent {
 

@@ -4,9 +4,9 @@ import jade.core.AID;
 import jade.core.Agent;
 import jade.core.behaviours.Behaviour;
 import jade.domain.DFService;
-import jade.domain.FIPAException;
 import jade.domain.FIPAAgentManagement.DFAgentDescription;
 import jade.domain.FIPAAgentManagement.ServiceDescription;
+import jade.domain.FIPAException;
 import jade.lang.acl.ACLMessage;
 import jade.lang.acl.MessageTemplate;
 
@@ -166,7 +166,7 @@ public class BookBuyerAgent extends Agent {
 		
 		ACLMessage cfp = new ACLMessage(ACLMessage.CFP);
 		
-		//Se sellerAgents for null pode ocorrer um erro não verifica do aqui.
+		//Se sellerAgents for null pode ocorrer um erro nï¿½o verifica do aqui.
 		for (int i = 0; i < sellerAgents.length; ++i) {
 			cfp.addReceiver(sellerAgents[i]);
 		} 

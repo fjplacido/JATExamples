@@ -1,12 +1,11 @@
 package br.pucrio.inf.les.jat.examples.bargainer.test.bargainer;
 
-import jade.core.AID;
-import jade.core.behaviours.OneShotBehaviour;
-import jade.lang.acl.ACLMessage;
-
 import java.util.List;
 
 import br.pucrio.inf.les.jat.core.JadeMockAgent;
+import jade.core.AID;
+import jade.core.behaviours.OneShotBehaviour;
+import jade.lang.acl.ACLMessage;
 
 public class AuctionMock3 extends JadeMockAgent {
 	

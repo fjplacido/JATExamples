@@ -1,12 +1,11 @@
 package br.pucrio.inf.les.jat.examples.trading.test.bookbuyer;
 
-import jade.core.AID;
-import jade.core.behaviours.OneShotBehaviour;
-import jade.lang.acl.ACLMessage;
-
 import java.util.Hashtable;
 
 import br.pucrio.inf.les.jat.core.JadeMockAgent;
+import jade.core.AID;
+import jade.core.behaviours.OneShotBehaviour;
+import jade.lang.acl.ACLMessage;
 
 public class BookSellerMock2 extends JadeMockAgent {
 

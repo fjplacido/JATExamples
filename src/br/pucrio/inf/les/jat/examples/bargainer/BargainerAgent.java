@@ -1,21 +1,21 @@
 package br.pucrio.inf.les.jat.examples.bargainer;
 
-import jade.core.Agent;
-import jade.core.behaviours.OneShotBehaviour;
-import jade.domain.DFService;
-import jade.domain.FIPAException;
-import jade.domain.FIPAAgentManagement.DFAgentDescription;
-import jade.domain.FIPAAgentManagement.ServiceDescription;
-import jade.lang.acl.ACLMessage;
-import jade.lang.acl.MessageTemplate;
-import jade.wrapper.AgentController;
-import jade.wrapper.StaleProxyException;
-
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.StringTokenizer;
+
+import jade.core.Agent;
+import jade.core.behaviours.OneShotBehaviour;
+import jade.domain.DFService;
+import jade.domain.FIPAAgentManagement.DFAgentDescription;
+import jade.domain.FIPAAgentManagement.ServiceDescription;
+import jade.domain.FIPAException;
+import jade.lang.acl.ACLMessage;
+import jade.lang.acl.MessageTemplate;
+import jade.wrapper.AgentController;
+import jade.wrapper.StaleProxyException;
 
 
 public class BargainerAgent extends Agent {
@@ -125,9 +125,9 @@ public class BargainerAgent extends Agent {
 
 		while ( msgAcceptProposal != null ) {
 			
-			//Se o conteúdo da mensagem estiver errado pode ocorrer um erro não verificado aqui.
+			//Se o conteï¿½do da mensagem estiver errado pode ocorrer um erro nï¿½o verificado aqui.
 			//PARTICIPO: SENDAS;COMPONENTE:REFRIGERANTE COCA-COLA
-			System.out.println(getAID().getLocalName() + " -> De: " + msgAcceptProposal.getSender().getLocalName() + " - Conteúdo: " + msgAcceptProposal.getContent());
+			System.out.println(getAID().getLocalName() + " -> De: " + msgAcceptProposal.getSender().getLocalName() + " - Conteï¿½do: " + msgAcceptProposal.getContent());
 
 			StringTokenizer st = new StringTokenizer(msgAcceptProposal.getContent(),";");
 
@@ -187,7 +187,7 @@ public class BargainerAgent extends Agent {
 			if ( msg != null ) {				
 				if ( msg.getPerformative() == ACLMessage.INFORM) {
 					
-//					Se o conteúdo da mensagem estiver errado pode ocorrer um erro não verificado aqui.
+//					Se o conteï¿½do da mensagem estiver errado pode ocorrer um erro nï¿½o verificado aqui.
 					StringTokenizer st = new StringTokenizer(msg.getContent(),";");
 
 					String component = st.nextToken();

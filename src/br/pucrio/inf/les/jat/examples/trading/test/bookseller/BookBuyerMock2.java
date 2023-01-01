@@ -1,10 +1,10 @@
 package br.pucrio.inf.les.jat.examples.trading.test.bookseller;
 
+import br.pucrio.inf.les.jat.core.JadeMockAgent;
+import br.pucrio.inf.les.jat.core.exception.ReplyReceptionFailed;
 import jade.core.AID;
 import jade.core.behaviours.OneShotBehaviour;
 import jade.lang.acl.ACLMessage;
-import br.pucrio.inf.les.jat.core.JadeMockAgent;
-import br.pucrio.inf.les.jat.core.exception.ReplyReceptionFailed;
 
 @SuppressWarnings("serial")
 public class BookBuyerMock2 extends JadeMockAgent {

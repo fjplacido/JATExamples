@@ -1,10 +1,10 @@
 package br.pucrio.inf.les.jat.examples.bargainer.test.bargainer;
 
+import br.pucrio.inf.les.jat.core.JadeMockAgent;
+import br.pucrio.inf.les.jat.core.exception.ReplyReceptionFailed;
 import jade.core.behaviours.OneShotBehaviour;
 import jade.domain.FIPAAgentManagement.DFAgentDescription;
 import jade.lang.acl.ACLMessage;
-import br.pucrio.inf.les.jat.core.JadeMockAgent;
-import br.pucrio.inf.les.jat.core.exception.ReplyReceptionFailed;
 
 public class EnterpriseMock1 extends JadeMockAgent {
 	

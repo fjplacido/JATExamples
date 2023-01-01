@@ -1,15 +1,14 @@
 package br.pucrio.inf.les.jat.examples.trading.test.bookbuyer;
 
-import jade.core.behaviours.OneShotBehaviour;
-import jade.domain.DFService;
-import jade.domain.FIPAException;
-import jade.domain.FIPAAgentManagement.DFAgentDescription;
-import jade.domain.FIPAAgentManagement.ServiceDescription;
-import jade.lang.acl.ACLMessage;
-
 import java.util.Hashtable;
 
 import br.pucrio.inf.les.jat.core.JadeMockAgent;
+import jade.core.behaviours.OneShotBehaviour;
+import jade.domain.DFService;
+import jade.domain.FIPAAgentManagement.DFAgentDescription;
+import jade.domain.FIPAAgentManagement.ServiceDescription;
+import jade.domain.FIPAException;
+import jade.lang.acl.ACLMessage;
 
 public class BookSellerMock11 extends JadeMockAgent {
 

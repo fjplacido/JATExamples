@@ -1,14 +1,14 @@
 package br.pucrio.inf.les.jat.examples.bargainer;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.StringTokenizer;
+
 import jade.core.AID;
 import jade.core.Agent;
 import jade.core.behaviours.SimpleBehaviour;
 import jade.lang.acl.ACLMessage;
 import jade.lang.acl.MessageTemplate;
-
-import java.util.ArrayList;
-import java.util.List;
-import java.util.StringTokenizer;
 
 public class AuctionAgent extends Agent {
 
@@ -82,9 +82,9 @@ public class AuctionAgent extends Agent {
 					break;
 				}
 
-				System.out.println(getAID().getLocalName() + " -> De: " + msgInform.getSender().getLocalName() + " - Conteúdo: " + msgInform.getContent());
+				System.out.println(getAID().getLocalName() + " -> De: " + msgInform.getSender().getLocalName() + " - Conteï¿½do: " + msgInform.getContent());
 				
-				//Se o conteúdo da mesagem estiver errado podemos encontrar erros não resolvidos aqui.
+				//Se o conteï¿½do da mesagem estiver errado podemos encontrar erros nï¿½o resolvidos aqui.
 				StringTokenizer st = new StringTokenizer(msgInform.getContent(),";");
 
 				String nomeEmpresa = st.nextToken();

@@ -1,21 +1,18 @@
 package br.pucrio.inf.les.jat.examples.bargainer.test.enterprise;
 
-import jade.core.behaviours.OneShotBehaviour;
-import jade.domain.DFService;
-import jade.domain.FIPAException;
-import jade.domain.FIPAAgentManagement.DFAgentDescription;
-import jade.domain.FIPAAgentManagement.ServiceDescription;
-import jade.lang.acl.ACLMessage;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.StringTokenizer;
 
-
-
 import br.pucrio.inf.les.jat.core.JadeMockAgent;
 import br.pucrio.inf.les.jat.core.exception.ReplyReceptionFailed;
 import br.pucrio.inf.les.jat.examples.bargainer.Componente;
+import jade.core.behaviours.OneShotBehaviour;
+import jade.domain.DFService;
+import jade.domain.FIPAAgentManagement.DFAgentDescription;
+import jade.domain.FIPAAgentManagement.ServiceDescription;
+import jade.domain.FIPAException;
+import jade.lang.acl.ACLMessage;
 
 public class BargainerMock1 extends JadeMockAgent {
 

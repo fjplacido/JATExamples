@@ -1,13 +1,13 @@
 package br.pucrio.inf.les.jat.examples.bargainer.test.bargainer;
 
-import jade.core.behaviours.OneShotBehaviour;
-import jade.domain.DFService;
-import jade.domain.FIPAException;
-import jade.domain.FIPAAgentManagement.DFAgentDescription;
-import jade.domain.FIPAAgentManagement.ServiceDescription;
-import jade.lang.acl.ACLMessage;
 import br.pucrio.inf.les.jat.core.JadeMockAgent;
 import br.pucrio.inf.les.jat.core.exception.ReplyReceptionFailed;
+import jade.core.behaviours.OneShotBehaviour;
+import jade.domain.DFService;
+import jade.domain.FIPAAgentManagement.DFAgentDescription;
+import jade.domain.FIPAAgentManagement.ServiceDescription;
+import jade.domain.FIPAException;
+import jade.lang.acl.ACLMessage;
 
 public class EnterpriseMock5 extends JadeMockAgent {
 	
